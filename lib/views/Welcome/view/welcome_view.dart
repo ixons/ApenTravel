@@ -14,7 +14,7 @@ class WelcomePage extends StatefulWidget {
 
 class _WelcomePageState extends State<WelcomePage> {
   final String _WelcomePageImage = 'assets/png/WelcomePageImage.png';
-  final String textAspen = 'Aspen';
+  final String textAspen = 'TraveLin';
   final String textPlanYour = 'Plan your';
   final String textLuxurious = 'Luxurious Vacation';
   @override
@@ -40,7 +40,7 @@ class _WelcomePageState extends State<WelcomePage> {
             child: TextWidget(
               text: textAspen,
               fontFamily: 'Hiatus',
-              fontSize: 150,
+              fontSize: 130,
             ),
           ),
           Container(
